@@ -1,0 +1,13 @@
+@media all and (max-width: 780px) {
+  .packs {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media all and (max-width: 480px) {
+  .packs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid_group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
